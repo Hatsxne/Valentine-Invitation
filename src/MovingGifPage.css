@@ -1,0 +1,75 @@
+/* Styles for the main container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center your content horizontally */
+    justify-content: center; /* This will center your content vertically */
+    height: 100vh; /* This will make the container take up the full viewport height */
+    text-align: center; /* This ensures that text is centered within its container */
+  }
+
+/* Styles for the GIF */
+.gif {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+/* Styles for the buttons */
+.yes-button,
+.no-button {
+  padding: 15px 30px;
+  font-size: 16px; /* Set an initial font size for both */
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Changed to 'all' to include font-size transitions */
+}
+
+
+.yes-button {
+  background-color: #4caf50; /* Green color */
+}
+
+.no-button {
+  background-color: #f44336; /* Red color */
+}
+
+/* Add space between buttons */
+.no-button {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+
+/* Styles for the clickable animation */
+.yes-button:hover,
+.yes-button:focus {
+  background-color: #388e3c; /* Darker shade of green when hovered/focused */
+}
+
+
+.no-button:hover,
+.no-button:focus {
+  background-color: #d32f2f; /* Darker shade of red when hovered/focused */
+}
+  
+  /* Styles for the question and message */
+  .question,
+  .message {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

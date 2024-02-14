@@ -1,0 +1,12 @@
+/* Set the background color to pastel pink */
+body {
+  background-color: #ffb6c1; /* Pastel pink color */
+}
+
+/* Optionally, you can add some styles to center the content */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
